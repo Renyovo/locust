@@ -14,6 +14,7 @@ import math
 import time
 import random
 import json
+import os
 
 from locust import HttpUser, TaskSet, task, constant, tag, between
 from locust import LoadTestShape
@@ -86,3 +87,6 @@ class StepLoadShape(LoadTestShape):
 
         # 第二个参数是用户生产率，在这个模式下这个参数是无关紧要的，所以设置的尽可能高，尽快生成所需用户
         return (target.users, 100)
+    
+if __name__ == "__main__":
+    os.system("locust -f wait_user_count.py")
