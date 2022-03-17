@@ -1,4 +1,21 @@
-import json, queue, os, csv
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
+"""
+@Time: 2022/3/16 2:55 下午
+@Author: y
+@QQ: 77386059
+@Wechat: Reny-ovo-
+@Description: 将接口的入参以csv参数化文件的形式传入，并将数据进行循环
+"""
+
+
+import os, sys
+dir = os.path.dirname(os.path.dirname(__file__))
+sys.path.append(dir)
+
+
+import json, queue, csv
 from locust import SequentialTaskSet, HttpUser, between, task, tag, LoadTestShape, constant
 from common import config
 
@@ -21,7 +38,7 @@ class TaskSuit(SequentialTaskSet):
             print(data)
             print(a)
         except queue.Empty:
-            print("no data")
+            print("no date")
 
     def on_stop(self):
         pass
@@ -42,4 +59,4 @@ class TaskPlan(HttpUser):
         })
         
 if __name__ == "__main__":
-    os.system("locust -f xn_q.py")
+    os.system("locust -f locust_canshuhua.py.py")
