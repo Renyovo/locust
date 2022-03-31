@@ -1,31 +1,31 @@
 .
-├── README.md
-├── __pycache__
-├── common                     //配置文件目录
-│   ├── __init__.py
-│   └── config.py              //配置文件路径
-├── list.txt
-├── locust.conf                //locust参数配置文件
-├── date                       //数据文件目录
-│   └── test.csv               //数据文件
-├── log                        //日志存放目录
-│   └── locust.log             //locust日志
-├── requirements               //所需安装环境目录
-│   └── requirements.txt       //所需安装环境
-├── static                     //web-UI扩展
-│   └── extend.js
-├── templates                  //web-UI扩展
-│   └── extend.html
-└── test_case                  //性能测试脚本目录
-    ├── __init__.py
-    ├── __pycache__
-    ├── double_wave.py         //双波形负载测试
-    ├── locust_canshuhua.py    //参数化接口入参
-    ├── locust_test.py         //正常性能测试
-    ├── stages.py              //时间阶段负载测试
-    ├── step_load.py           //逐步负载测试
-    ├── time_peak.py           //时间峰值负载测试
-    └── wait_user_count.py     //用户数稳定负载测试
+├── README.md  
+├── __pycache__  
+├── common                       //配置文件目录
+│   ├── __init__.py  
+│   └── config.py                //配置文件路径
+├── list.txt  
+├── locust.conf                  //locust参数配置文件
+├── date                          //数据文件目录
+│   └── test.csv                 //数据文件
+├── log                          //日志存放目录
+│   └── locust.log               //locust日志
+├── requirements                 //所需安装环境目录
+│   └── requirements.txt         //所需安装环境
+├── static                       //web-UI扩展
+│   └── extend.js  
+├── templates                    //web-UI扩展
+│   └── extend.html  
+└── test_case                    //性能测试脚本目录
+    ├── __init__.py  
+    ├── __pycache__  
+    ├── double_wave.py           //双波形负载测试
+    ├── locust_canshuhua.py      //参数化接口入参
+    ├── locust_test.py           //正常性能测试
+    ├── stages.py                //时间阶段负载测试
+    ├── step_load.py             //逐步负载测试
+    ├── time_peak.py             //时间峰值负载测试
+    └── wait_user_count.py       //用户数稳定负载测试
 
 9 directories, 18 files
 
