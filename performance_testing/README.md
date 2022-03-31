@@ -2,7 +2,7 @@
 ├── README.md  
 ├── __pycache__  
 ├── common                       //配置文件目录。
-│   ├── __init__.py  
+│   ├── __init__.py
 │   └── config.py                //配置文件路径  
 ├── list.txt  
 ├── locust.conf                  //locust参数配置文件  
