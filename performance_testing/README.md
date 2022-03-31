@@ -1,8 +1,8 @@
 .
 ├── README.md  
 ├── __pycache__  
-├── common                       //配置文件目录。
-│   ├── __init__.py
+├── common                       //配置文件目录。  
+│   ├── __init__.py  
 │   └── config.py                //配置文件路径  
 ├── list.txt  
 ├── locust.conf                  //locust参数配置文件  
@@ -46,6 +46,6 @@
 帮助：locust -h/--help
 
 脚本扩展：
-locust源码github地址：https://github.com/locustio/locust
-locust官方参考文档：http://docs.locust.io/en/stable/
-locust参数配置文件及扩展：https://blog.csdn.net/u012002125/article/details/112871989?spm=1001.2014.3001.5502
+locust源码github地址：https://github.com/locustio/locust  
+locust官方参考文档：http://docs.locust.io/en/stable/  
+locust参数配置文件及扩展：https://blog.csdn.net/u012002125/article/details/112871989?spm=1001.2014.3001.5502  
